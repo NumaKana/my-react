@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/my-react/static/css/main.bae687e8.css",
-    "main.js": "/my-react/static/js/main.50ce6880.js",
+    "main.css": "/my-react/static/css/main.e98b969f.css",
+    "main.js": "/my-react/static/js/main.b191a33c.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-react/static/js/787.28cb0dcd.chunk.js",
+    "static/media/kawaiiufo.png": "/my-react/static/media/kawaiiufo.a05d31331ae3ebe44bde.png",
     "static/media/pianosystem.png": "/my-react/static/media/pianosystem.c504d4606243ab6111e4.png",
+    "static/media/rpg.png": "/my-react/static/media/rpg.2b2a3c41d6c0a3aaa32e.png",
     "static/media/codeviewer.png": "/my-react/static/media/codeviewer.81977d236b971e0f943c.png",
+    "static/media/tetlis.png": "/my-react/static/media/tetlis.1a34ae2ae412fbe4534e.png",
     "index.html": "/my-react/index.html",
-    "main.bae687e8.css.map": "/my-react/static/css/main.bae687e8.css.map",
-    "main.50ce6880.js.map": "/my-react/static/js/main.50ce6880.js.map",
+    "main.e98b969f.css.map": "/my-react/static/css/main.e98b969f.css.map",
+    "main.b191a33c.js.map": "/my-react/static/js/main.b191a33c.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bae687e8.css",
-    "static/js/main.50ce6880.js"
+    "static/css/main.e98b969f.css",
+    "static/js/main.b191a33c.js"
   ]
 }

@@ -1,6 +1,9 @@
 import './App.css';
 import pianosystemimg from "./pianosystem.png"
 import codeviewerimg from "./codeviewer.png"
+import ufoimg from "./kawaiiufo.png"
+import rpgimg from "./rpg.png"
+import tetlisimg from "./tetlis.png"
 import React, { useState } from 'react';
 
 function SystemDetail(props) {
@@ -54,6 +57,9 @@ function MadeSystem(props){
 function App() {
   const [show_pianosystem, setPianosystem] = useState(false)
   const [show_codeviewer, setCodeviewer] = useState(false)
+  const [show_ufo, setUFO] = useState(false)
+  const [show_rpg, setRPG] = useState(false)
+  const [show_tetlis, setTetlis] = useState(false)
   return (
     <div className="App">
       <header className="App-header">
@@ -91,6 +97,36 @@ function App() {
         link=""
       />
       </div>
+      <div className='flex'>
+
+      <MadeSystem 
+        name="Kawaii UFO"  
+        show={show_ufo} 
+        set={setUFO}
+        img={ufoimg}
+        detail="バイト先で生徒に教えるために作成。かわいいUFOのゲームです。"
+        skills={["HTML", "CSS", "Javascript"]}
+        link=""
+      /> 
+      <MadeSystem 
+        name="RPG?"  
+        show={show_rpg} 
+        set={setRPG}
+        img={rpgimg}
+        detail="バイト先で生徒に教えるために作成。ゴールを目指すRPG風のゲームです。"
+        skills={["HTML", "CSS", "Javascript"]}
+        link=""
+      />
+      </div>
+      <MadeSystem 
+        name="テトリス"  
+        show={show_tetlis} 
+        set={setTetlis}
+        img={tetlisimg}
+        detail="バイト先で生徒に教えるために作成。いわゆるテトリスです。"
+        skills={["HTML", "CSS", "Javascript"]}
+        link=""
+      />  
 
       <p className='pinkmoji large'>Awards</p>
       <ul className='awardslist'>

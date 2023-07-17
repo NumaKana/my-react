@@ -7,7 +7,7 @@
   padding-bottom: 30px;
 }
 
-.App-logo {
+.App-logo { 
   height: 40vmin;
   pointer-events: none;
 }
@@ -62,7 +62,7 @@
 .made_system {
   margin: 10px;
   margin-top: 5%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .link {
@@ -185,6 +185,19 @@
     top:-10px;
     margin: 10px;
     padding-top: 50px;
+  }
+  .go_detail::before {
+    background: pink;
+    content: '';
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    margin: auto;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: transform .3s;
   }
 }
 
