@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-react/static/css/main.2aa34a1f.css",
+    "main.js": "/my-react/static/js/main.50ce6880.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-react/static/js/787.28cb0dcd.chunk.js",
+    "static/media/pianosystem.png": "/my-react/static/media/pianosystem.c504d4606243ab6111e4.png",
+    "static/media/codeviewer.png": "/my-react/static/media/codeviewer.81977d236b971e0f943c.png",
+    "index.html": "/my-react/index.html",
+    "main.2aa34a1f.css.map": "/my-react/static/css/main.2aa34a1f.css.map",
+    "main.50ce6880.js.map": "/my-react/static/js/main.50ce6880.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-react/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aa34a1f.css",
+    "static/js/main.50ce6880.js"
+  ]
+}
