@@ -1,9 +1,10 @@
 import './App.css';
-import pianosystemimg from "./pianosystem.png"
-import codeviewerimg from "./codeviewer.png"
-import ufoimg from "./kawaiiufo.png"
-import rpgimg from "./rpg.png"
-import tetlisimg from "./tetlis.png"
+import pianosystemimg from "./img/pianosystem.png"
+import codeviewerimg from "./img/codeviewer.png"
+import ufoimg from "./img/kawaiiufo.png"
+import rpgimg from "./img/rpg.png"
+import tetlisimg from "./img/tetlis.png"
+import valimg from "./img/valken.png"
 import React, { useState } from 'react';
 
 function SystemDetail(props) {
@@ -60,6 +61,7 @@ function App() {
   const [show_ufo, setUFO] = useState(false)
   const [show_rpg, setRPG] = useState(false)
   const [show_tetlis, setTetlis] = useState(false)
+  const [show_val, setVal] = useState(false)
   return (
     <div className="App">
       <header className="App-header">
@@ -71,7 +73,7 @@ function App() {
         <p>沼田佳夏 (ぬまた　かな)</p>
         <p>筑波大学情報学群情報メディア創成学類　卒業</p>
         <p>筑波大学大学院人間総合科学学術院情報学学位プログラム　1年生</p>
-        <p>2025年3月修了予定　22歳</p>
+        <p>2025年3月修了予定　23歳</p>
         <p>筑波大学JAZZ愛好会所属</p>
         <a className='whitemoji' href='https://github.com/Numakana' target="_blank" rel="noopener noreferrer">Github</a>
       </div>
@@ -126,7 +128,17 @@ function App() {
         detail="バイト先で生徒に教えるために作成。いわゆるテトリスです。"
         skills={["HTML", "CSS", "Javascript"]}
         link=""
-      />  
+      /> 
+
+      <MadeSystem 
+        name="ChatAPIを用いた経路探索アプリ"  
+        show={show_val} 
+        set={setVal}
+        img={valimg}
+        detail="VAL研究所のインターンで作成。座標からChatGPTに最適な経路探索を行ってもらい、それらを駅すぱあとでつなぐアプリです。"
+        skills={["Vue.js", "leaflet"]}
+        link=""
+      /> 
 
       <p className='pinkmoji large'>Awards</p>
       <ul className='awardslist'>
