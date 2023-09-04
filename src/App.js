@@ -120,6 +120,7 @@ function App() {
         link=""
       />
       </div>
+      <div className='flex'>
       <MadeSystem 
         name="テトリス"  
         show={show_tetlis} 
@@ -139,6 +140,7 @@ function App() {
         skills={["Vue.js", "leaflet"]}
         link=""
       /> 
+      </div>
 
       <p className='pinkmoji large'>Awards</p>
       <ul className='awardslist'>
