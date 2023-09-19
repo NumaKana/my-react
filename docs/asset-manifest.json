@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/my-react/static/css/main.e98b969f.css",
-    "main.js": "/my-react/static/js/main.174a3d1a.js",
+    "main.css": "/my-react/static/css/main.3fc1d9bc.css",
+    "main.js": "/my-react/static/js/main.db127c54.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-react/static/js/787.28cb0dcd.chunk.js",
     "static/media/valken.png": "/my-react/static/media/valken.66905f6370cd88217cfb.png",
     "static/media/kawaiiufo.png": "/my-react/static/media/kawaiiufo.a05d31331ae3ebe44bde.png",
     "static/media/pianosystem.png": "/my-react/static/media/pianosystem.c504d4606243ab6111e4.png",
     "static/media/rpg.png": "/my-react/static/media/rpg.2b2a3c41d6c0a3aaa32e.png",
+    "static/media/portforio.png": "/my-react/static/media/portforio.ccad5e28f6cb5aef132e.png",
     "static/media/codeviewer.png": "/my-react/static/media/codeviewer.81977d236b971e0f943c.png",
     "static/media/tetlis.png": "/my-react/static/media/tetlis.1a34ae2ae412fbe4534e.png",
     "index.html": "/my-react/index.html",
-    "main.e98b969f.css.map": "/my-react/static/css/main.e98b969f.css.map",
-    "main.174a3d1a.js.map": "/my-react/static/js/main.174a3d1a.js.map",
+    "main.3fc1d9bc.css.map": "/my-react/static/css/main.3fc1d9bc.css.map",
+    "main.db127c54.js.map": "/my-react/static/js/main.db127c54.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e98b969f.css",
-    "static/js/main.174a3d1a.js"
+    "static/css/main.3fc1d9bc.css",
+    "static/js/main.db127c54.js"
   ]
 }
