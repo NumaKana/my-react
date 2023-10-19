@@ -108,7 +108,7 @@ function App() {
         img={tetlisimg}
         detail="バイト先で生徒に教えるために作成。いわゆるテトリスです。"
         skills={["HTML", "CSS", "Javascript"]}
-        link=""
+        link="https://numakana.github.io/tetris/"
       /> 
 
       <MadeSystem 
